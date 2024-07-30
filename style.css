@@ -1,0 +1,528 @@
+body{
+    background-color: #1E1E1E;
+    color:#ffffff;
+    font-family: Rubik;
+    margin: 10px 80px; 
+    overflow-x: hidden;
+}
+
+.home{
+    margin: 50px 0px;
+}
+
+section{
+    padding: 50px 0px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1{
+    margin: 5px 0px;
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+span{
+    color:#FD6F00;
+}
+
+button{
+    font-family: Rubik;
+}
+
+
+
+/*------------------------------------------------- Navbar -------------------------------------------------*/
+
+
+
+.nav{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FD6F00;
+}
+
+.nav-button ul{
+    color: #ffffff;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-button button{
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #FD6F00;
+}
+
+
+/*------------------------------------------------- Banner -------------------------------------------------*/
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-skills svg, .showcase svg{
+    padding: 0px 15px;
+}
+
+.banner p{
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.banner-skills{
+    display: flex;
+    align-items: center;
+}
+
+.banner-skills h1{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.banner-info{
+    display: flex;
+    gap: 20px;
+    width: 280px;
+    height: 40px;
+    padding: 7px 7px;
+    background: #FFFFFF1A;
+    border-radius: 50px;
+    border: 1px solid #C9C9C9;
+    align-items: center;
+}
+
+.banner-portfolio button{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    padding: 0px 30px 0px 40px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FD6F00;
+}
+
+.banner-portfolio h1{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.banner-hire h1{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.banner-photo{
+    width: 400px;
+    margin-top: 100px;
+    border: 4px solid transparent;
+    border-radius: 100%;
+    background: linear-gradient(#000000, #000000) padding-box,
+                linear-gradient(to top, #FF8233, rgba(255, 255, 255, 0)) border-box;
+}
+
+.banner-photo img{
+    width: 350px;
+    height: 500px;
+    margin-top: -150px;
+    margin-left: 25px;
+}
+
+.banner-icon{
+    padding: 20px 0px;
+}
+
+.banner-icon i{
+    padding: 10px;
+}
+
+/*------------------------------------------------- Showcase -------------------------------------------------*/
+
+
+
+.showcase{
+    width: 150%;
+    background-color: black;
+    transform: rotate(-3.97deg);
+    margin: -30px 0px -30px -170px;
+}
+
+.showcase-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-text h1{
+    font-weight: 100;
+    font-size: 22px;
+    padding: 25px 5px;
+}
+
+
+
+
+/*------------------------------------------------- About -------------------------------------------------*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.about-info p{
+    font-size: 16px;
+    opacity: 50%;
+    padding: 0px;
+}
+
+.about-experience{
+    text-align: right;
+}
+
+.about-experience p{
+    font-size: 15px;
+    margin: -5px 0px;
+}
+
+.about-experience h1{
+    font-size: 40px;
+    margin: 0px;
+}
+
+.about-info{
+    width: 500px;
+}
+
+
+
+
+/*------------------------------------------------- Experience -------------------------------------------------*/
+
+
+#experience{
+    margin: 0px -80px;
+    background-image: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+}
+
+.experience{
+    margin: 90px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience p{
+    width: 450px;
+    font-size: 13px;
+}
+
+.experience h2{
+    font-style: italic;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 15px;
+    width: 300px
+}
+
+.exp{
+    padding: 20px 0px 10px 0px;
+    border-bottom: 1px solid;
+}
+
+.exp p{
+    width: 150px;
+    text-align: right;
+}
+
+
+.exp-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/*------------------------------------------------- Awards -------------------------------------------------*/
+
+#award .title{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#award .title p{
+    opacity: 50%;
+}
+
+.award{
+    height: 219px;
+    margin-top: 40px;
+    background-color: #000000;
+}
+
+.award-info{
+    padding: 30px 50px;
+}
+
+.award h1{
+    font-weight: 200;
+}
+
+.award h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.award-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.award-details p{
+    width: 600px;
+    opacity: 50%;
+}
+
+
+
+/*------------------------------------------------- Portfolio -------------------------------------------------*/
+
+
+#portfolio .title{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#portfolio .title p{
+    opacity: 50%;
+}
+
+.portfolio-topics
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0px;
+}
+
+.port-1 button, .port-3 button, .port-4 button{
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #000000;
+} 
+
+.port-2 button{
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #FD6F00;
+}
+
+.port-details{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.port-details img{
+    width: 445px;
+    height: 334px;
+}
+
+.port-info-1{
+    padding: 10px 0px 50px 50px;
+}
+
+.port-info-2{
+    padding: 0px 50px 50px 0px;
+}
+
+.port-details h2{
+    font-style: italic;
+    font-family: Rubik;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.port-details h1{
+    font-size: 35px;
+}
+
+.port-details p{
+    opacity: 50%;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+
+
+/*------------------------------------------------- Contact -------------------------------------------------*/
+
+
+
+#contact{
+    margin-bottom: 60px;
+}
+
+#contact .title{
+    text-align: center;
+}
+
+#contact .title p{
+    font-style: italic;
+    font-family: Rubik;
+}
+
+.contact{
+    height: 500px;
+    padding: 70px 100px 10px 100px;
+    margin-top: 60px;
+    background: #FD6F001A;
+}
+
+.contact p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.contact a{
+    color: #ffffff;
+}
+
+.contact h1{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+.contact-field{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.contact-name input, .contact-email input{
+    width: 400px;
+    padding-bottom: 5px;
+
+}
+
+.contact-message{
+    padding-top: 40px;
+}
+
+.contact-message input{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.contact-name input, .contact-email input, .contact-message input{
+    border: none;
+    color: #ffffff;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid;
+}
+
+.contact-attach{
+    display: flex;
+    padding: 5px 0px 20px 0px;
+    align-items: center;
+}
+
+.contact-submit button{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding-top: 3px;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #FD6F00;
+}
+
+/*------------------------------------------------- Footer -------------------------------------------------*/
+
+footer{
+    padding-top: 50px;
+    margin: 0px -80px 20px -80px;
+    background-color: black;
+}
+
+.footer{
+    margin: 0px 80px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.footer-logo{
+    padding: 0px 0px 30px 0px;
+}
+
+.footer-logo a{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FD6F00;
+}
+
+.footer ul{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-icon{
+    padding: 80px 0px 0px 0px;
+    justify-content: center;
+}
+
+.footer-icon i{
+    padding: 10px;
+    
+}
+
+.footer-copyright{
+    align-items: center;
+    text-align: center;
+}
+
+.footer-copyright h3{
+    font-size: 18px;
+    font-weight: 400;
+}
